@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="LWC">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../API/LWC.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

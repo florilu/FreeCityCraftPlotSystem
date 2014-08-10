@@ -1,0 +1,26 @@
+# default config.yml
+plots:
+   member:
+    costs: 0
+    permission: fcgsbuy.member
+    identification: m
+   vip:
+    costs: 1000
+    permission: fcgsbuy.vip
+    identification: vip
+   hochhaus:
+    costs: 2000
+    permission: fcgsbuy.member
+    identification: h
+   rom:
+     costs: 1500
+     permission: fcgsbuy.member
+     identification: rom
+   fren:
+     costs: 2000
+     permission: fcsbuy.member
+     identification: ren
+   modern:
+     costs: 3000
+     permission: fcgsbuy.member
+     identification: mod

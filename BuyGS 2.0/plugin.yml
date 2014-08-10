@@ -1,0 +1,29 @@
+name: FreeCityCraft-Plot-System
+main: BuyGS
+version: 1
+depends: [Vault]
+commands:
+   listgs:
+     description: Get a list which plots dont have an owner.
+     usage: /listgs <member | vip | hochhaus>
+     permission: fcgsbuy.list
+   buygs:
+     description: Buy a Plot.
+     usage: /buygs <PlotID>
+     permission: fcgsbuy.member
+   sellgs:
+     description: Sell your Plot.
+     usage: /sellgs
+     permission: fcgsbuy.member
+   removeowner:
+     description: Remove an owner from a plot.
+     usage: /removeowner <PlotID>
+     permission: fcgsbuy.admin
+   adduser:
+     description: Add a user to your plot.
+     usage: /adduser <Player>
+     permission: fcgsbuy.member
+   removeuser:
+     description: Remove a user from your plot.
+     usage: /removeuser <Player>
+     permission: fcgsbuy.member
